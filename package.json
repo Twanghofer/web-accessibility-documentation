@@ -1,0 +1,45 @@
+{
+  "name": "web-accessibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "algoliasearch": "^4.17.2",
+    "ansi-sequence-parser": "^1.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "csstype": "^3.1.2",
+    "esbuild": "^0.17.19",
+    "estree-walker": "^2.0.2",
+    "focus-trap": "^7.4.3",
+    "fsevents": "^2.3.2",
+    "jsonc-parser": "^3.2.0",
+    "magic-string": "^0.30.0",
+    "mark.js": "^8.11.1",
+    "minisearch": "^6.1.0",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.24",
+    "preact": "^10.15.1",
+    "rollup": "^3.25.1",
+    "search-insights": "^2.6.0",
+    "shiki": "^0.14.2",
+    "source-map-js": "^1.0.2",
+    "tabbable": "^6.1.2",
+    "vite": "^4.3.9",
+    "vscode-oniguruma": "^1.7.0",
+    "vscode-textmate": "^8.0.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
