@@ -12,12 +12,12 @@ If you don't want mouse users to see the focus indicator, you can hide the outli
 
 ```css
 :focus {
-  outline: none;
-}
-
-:focus-visible {
   outline: 1px solid currentColor;
   outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
 }
 ```
 
