@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Web Accessibility Library"
+  name: "Web Accessibility Documentation"
   text: "Accessibility - the easy way"
-  tagline: "A library of web accessibility tools and resources"
+  tagline: "A documentation of web accessibility tools and resources"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentation
+      link: /basics
+  #  - theme: alt
+  #   text: API Examples
+  #  link: /api-examples
 #features:
 # - title: Feature A
 #  details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
