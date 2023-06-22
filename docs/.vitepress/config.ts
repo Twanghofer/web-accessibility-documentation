@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/web-accessibility-documentation/",
   title: "Web Accessibility Docs",
   description:
     "A simple documentation of web accessibility standards and easy ways to implement them",
