@@ -10,7 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Documentation1", link: "/basics " },
+      { text: "Documentation", link: "/basics " },
     ],
 
     sidebar: [
@@ -21,8 +21,11 @@ export default defineConfig({
           { text: "Keyboard Accessibility", link: "/keyboard-accessibility" },
           { text: "Best Practices", link: "/best-practices" },
           { text: "Custom elements", link: "/custom-elements" },
-          { text: "Special Cases", link: "/special-cases" },
         ],
+      },
+      {
+        text: "Examples",
+        items: [{ text: "Infinite scroll", link: "/examples/infinite-scroll" }],
       },
     ],
 

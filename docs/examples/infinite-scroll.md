@@ -1,8 +1,4 @@
-# Special Cases
-
-Here are some special cases that you may encounter when creating accessible components.
-
-## Infinite scroll
+# Infinite scroll
 
 When creating a infinite scroll use the `role="feed"` and `aria-busy` attributes on the parent element. The `aria-busy` attribute should be set to `true` when the content is loading and `false` when the content is loaded.
 

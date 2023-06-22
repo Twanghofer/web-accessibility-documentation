@@ -24,13 +24,13 @@ When using SASS or similar CSS preprocessors, creating a function to convert `px
 }
 ```
 
-## Making cards accessible
+## Don't wrap content in a `<a>` tag
 
-Cards are often used to display a summary of information, and can be used to link to more detailed information. They are often used in lists, such as a list of blog posts or search results.
+Often times it is tempting to wrap a whole section of content in a `<a>` tag, to make the whole section clickable. This is not a good practice, because it makes it harder for screen reader users to understand the content.
 
-### Card structure
+### Alternative structure
 
-To make the card accessible, the card should be a `<article>` element with an `aria-labelledby` attribute. The `aria-labelledby` attribute should point to the heading element inside of the card. If the card should be clickable, create a `<a>` element inside the card, that stretches to the full size of the card. The `<a>` element should also have an `aria-label` attribute that describes the link destination.
+To make such a component accessible, the component should be a `<article>` element with an `aria-labelledby` attribute. The `aria-labelledby` attribute should point to the heading element inside of the component. Create a `<a>` element inside the card, that stretches to the full size of the card. The `<a>` element should also have an `aria-label` attribute that describes the link destination.
 
 ```html
 <article class="card" aria-labelledby="card-heading">
