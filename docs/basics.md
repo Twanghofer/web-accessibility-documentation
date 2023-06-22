@@ -2,9 +2,9 @@
 
 ## Using Semantic HTML
 
-Using proper HTML tags is important for accessibility and SEO. This includes using the correct [Landmark elements](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html), such as `<header>`, `<main>`, `<nav>`, `<footer>`, `<aside>`, `<section>`, and `<form>`.
+Using proper HTML tags is important for both accessibility and SEO. This includes using the correct [Landmark elements](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html), such as `<header>`, `<main>`, `<nav>`, `<footer>`, `<aside>`, `<section>`, and `<form>`.
 
-Headings should be used to create a logical outline of the page. The `<h1>` tag should be used for the main heading of the page, and should only be used once. The `<h2>` tag should be used for subheadings, and so on.
+Headings should be used to create a logical outline of the page. The `<h1>` tag should be used for the main heading of the page, and should only be used once. The `<h2>` tag should be used for subheadings, and so on. The heading levels should be used in order, and should not skip levels.
 
 ### Gotchas
 
