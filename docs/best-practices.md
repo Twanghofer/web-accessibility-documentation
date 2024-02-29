@@ -30,14 +30,14 @@ Often times it is tempting to wrap a whole section of content in a `<a>` tag, to
 
 ### Alternative structure
 
-To make such a component accessible, the component should be a `<article>` element with an `aria-labelledby` attribute. The `aria-labelledby` attribute should point to the heading element inside of the component. Create a `<a>` element inside the card, that stretches to the full size of the card. The `<a>` element should also have an `aria-label` attribute that describes the link destination.
+Create a `<a>` element inside the card, that stretches to the full size of the card. The `<a>` element should also have an `aria-label` attribute that describes the link destination.
 
 ```html
-<article class="card" aria-labelledby="card-heading">
-  <h2 id="card-heading">Card Heading</h2>
+<div class="card">
+  <h2>Card Heading</h2>
   <p>Card content with a <a href="/another-link"> another link</a> inside</p>
   <a class="main-anchor" href="/link" aria-label="Link to more information"></a>
-</article>
+</div>
 ```
 
 ```css
